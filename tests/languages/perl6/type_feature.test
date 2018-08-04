@@ -1,0 +1,139 @@
+AST Any Block Bool
+CallFrame Callable Code Complex
+ComplexStr Cool Date DateTime
+Dateish Duration FatRat HyperWhatever
+Instant Int IntStr Junction
+Label Macro Method Mu
+Nil Num NumStr Numeric
+ObjAt Parameter Proxy Rat
+RatStr Rational Real Routine
+Scalar Signature Str Stringy
+Sub Submethod ValueObjAt Variable
+Version Whatever WhateverCode atomicint
+Array Associative Bag BagHash
+Baggy Blob Buf Capture
+Enumeration Hash Iterable Iterator
+List Map Mix MixHash
+Mixy NFC NFD NFKC
+NFKD Pair Positional PositionalBindFailover
+PseudoStash QuantHash Range Seq
+Set SetHash Setty Slip
+Stash Uni Attribute Cancellation
+Channel CurrentThreadScheduler Cursor Distro
+Grammar IO IO::ArgFiles IO::CatHandle
+IO::Handle IO::Notification IO::Path IO::Path::Cygwin
+IO::Path::QNX IO::Path::Unix IO::Path::Win32 IO::Pipe
+IO::Socket IO::Socket::Async IO::Socket::INET IO::Spec
+IO::Spec::Cygwin IO::Spec::QNX IO::Spec::Unix IO::Spec::Win32
+IO::Special Kernel Lock Match
+Order Pod::Block Pod::Block::Code Pod::Block::Comment
+Pod::Block::Declarator Pod::Block::Named Pod::Block::Para Pod::Block::Table
+Pod::Heading Pod::Item Proc Proc::Async
+Promise Regex Scheduler Semaphore
+Supplier Supplier::Preserving Supply Tap
+Thread ThreadPoolScheduler VM Backtrace
+Backtrace::Frame Exception Failure X::AdHoc
+X::Anon::Augment X::Anon::Multi X::Assignment::RO X::Attribute::NoPackage
+X::Attribute::Package X::Attribute::Undeclared X::Augment::NoSuchType X::Bind
+X::Bind::NativeType X::Bind::Slice X::Caller::NotDynamic X::Channel::ReceiveOnClosed
+X::Channel::SendOnClosed X::Comp X::Composition::NotComposable X::Constructor::Positional
+X::ControlFlow X::ControlFlow::Return X::DateTime::TimezoneClash X::Declaration::Scope
+X::Declaration::Scope::Multi X::Does::TypeObject X::Eval::NoSuchLang X::Export::NameClash
+X::IO X::IO::Chdir X::IO::Chmod X::IO::Copy
+X::IO::Cwd X::IO::Dir X::IO::DoesNotExist X::IO::Link
+X::IO::Mkdir X::IO::Move X::IO::Rename X::IO::Rmdir
+X::IO::Symlink X::IO::Unlink X::Inheritance::NotComposed X::Inheritance::Unsupported
+X::Method::InvalidQualifier X::Method::NotFound X::Method::Private::Permission X::Method::Private::Unqualified
+X::Mixin::NotComposable X::NYI X::NoDispatcher X::Numeric::Real
+X::OS X::Obsolete X::OutOfRange X::Package::Stubbed
+X::Parameter::Default X::Parameter::MultipleTypeConstraints X::Parameter::Placeholder X::Parameter::Twigil
+X::Parameter::WrongOrder X::Phaser::Multiple X::Phaser::PrePost X::Placeholder::Block
+X::Placeholder::Mainline X::Pod X::Proc::Async X::Proc::Async::AlreadyStarted
+X::Proc::Async::CharsOrBytes X::Proc::Async::MustBeStarted X::Proc::Async::OpenForWriting X::Proc::Async::TapBeforeSpawn
+X::Proc::Unsuccessful X::Promise::CauseOnlyValidOnBroken X::Promise::Vowed X::Redeclaration
+X::Role::Initialization X::Seq::Consumed X::Sequence::Deduction X::Signature::NameClash
+X::Signature::Placeholder X::Str::Numeric X::StubCode X::Syntax
+X::Syntax::Augment::WithoutMonkeyTyping X::Syntax::Comment::Embedded X::Syntax::Confused X::Syntax::InfixInTermPosition
+X::Syntax::Malformed X::Syntax::Missing X::Syntax::NegatedPair X::Syntax::NoSelf
+X::Syntax::Number::RadixOutOfRange X::Syntax::P5 X::Syntax::Regex::Adverb X::Syntax::Regex::SolitaryQuantifier
+X::Syntax::Reserved X::Syntax::Self::WithoutObject X::Syntax::Signature::InvocantMarker X::Syntax::Term::MissingInitializer
+X::Syntax::UnlessElse X::Syntax::Variable::Match X::Syntax::Variable::Numeric X::Syntax::Variable::Twigil
+X::Temporal X::Temporal::InvalidFormat X::TypeCheck X::TypeCheck::Assignment
+X::TypeCheck::Binding X::TypeCheck::Return X::TypeCheck::Splice X::Undeclared
+
+Int:D Str:U Bool:_
+
+----------------------------------------------------
+
+[
+  ["type", "AST"], ["type", "Any"], ["type", "Block"], ["type", "Bool"],
+  ["type", "CallFrame"], ["type", "Callable"], ["type", "Code"], ["type", "Complex"],
+  ["type", "ComplexStr"], ["type", "Cool"], ["type", "Date"], ["type", "DateTime"],
+  ["type", "Dateish"], ["type", "Duration"], ["type", "FatRat"], ["type", "HyperWhatever"],
+  ["type", "Instant"], ["type", "Int"], ["type", "IntStr"], ["type", "Junction"],
+  ["type", "Label"], ["type", "Macro"], ["type", "Method"], ["type", "Mu"],
+  ["type", "Nil"], ["type", "Num"], ["type", "NumStr"], ["type", "Numeric"],
+  ["type", "ObjAt"], ["type", "Parameter"], ["type", "Proxy"], ["type", "Rat"],
+  ["type", "RatStr"], ["type", "Rational"], ["type", "Real"], ["type", "Routine"],
+  ["type", "Scalar"], ["type", "Signature"], ["type", "Str"], ["type", "Stringy"],
+  ["type", "Sub"], ["type", "Submethod"], ["type", "ValueObjAt"], ["type", "Variable"],
+  ["type", "Version"], ["type", "Whatever"], ["type", "WhateverCode"], ["type", "atomicint"],
+
+  ["type", "Array"], ["type", "Associative"], ["type", "Bag"], ["type", "BagHash"],
+  ["type", "Baggy"], ["type", "Blob"], ["type", "Buf"], ["type", "Capture"],
+  ["type", "Enumeration"], ["type", "Hash"], ["type", "Iterable"], ["type", "Iterator"],
+  ["type", "List"], ["type", "Map"], ["type", "Mix"], ["type", "MixHash"],
+  ["type", "Mixy"], ["type", "NFC"], ["type", "NFD"], ["type", "NFKC"],
+  ["type", "NFKD"], ["type", "Pair"], ["type", "Positional"], ["type", "PositionalBindFailover"],
+  ["type", "PseudoStash"], ["type", "QuantHash"], ["type", "Range"], ["type", "Seq"],
+  ["type", "Set"], ["type", "SetHash"], ["type", "Setty"], ["type", "Slip"],
+  ["type", "Stash"], ["type", "Uni"],
+
+  ["type", "Attribute"], ["type", "Cancellation"], ["type", "Channel"], ["type", "CurrentThreadScheduler"],
+  ["type", "Cursor"], ["type", "Distro"], ["type", "Grammar"], ["type", "IO"],
+  ["type", "IO::ArgFiles"], ["type", "IO::CatHandle"], ["type", "IO::Handle"], ["type", "IO::Notification"],
+  ["type", "IO::Path"], ["type", "IO::Path::Cygwin"], ["type", "IO::Path::QNX"], ["type", "IO::Path::Unix"],
+  ["type", "IO::Path::Win32"], ["type", "IO::Pipe"], ["type", "IO::Socket"], ["type", "IO::Socket::Async"],
+  ["type", "IO::Socket::INET"], ["type", "IO::Spec"], ["type", "IO::Spec::Cygwin"], ["type", "IO::Spec::QNX"],
+  ["type", "IO::Spec::Unix"], ["type", "IO::Spec::Win32"], ["type", "IO::Special"], ["type", "Kernel"],
+  ["type", "Lock"], ["type", "Match"], ["type", "Order"], ["type", "Pod::Block"],
+  ["type", "Pod::Block::Code"], ["type", "Pod::Block::Comment"], ["type", "Pod::Block::Declarator"], ["type", "Pod::Block::Named"],
+  ["type", "Pod::Block::Para"], ["type", "Pod::Block::Table"], ["type", "Pod::Heading"], ["type", "Pod::Item"],
+  ["type", "Proc"], ["type", "Proc::Async"], ["type", "Promise"], ["type", "Regex"],
+  ["type", "Scheduler"], ["type", "Semaphore"], ["type", "Supplier"], ["type", "Supplier::Preserving"],
+  ["type", "Supply"], ["type", "Tap"], ["type", "Thread"], ["type", "ThreadPoolScheduler"], ["type", "VM"],
+
+  ["type", "Backtrace"], ["type", "Backtrace::Frame"], ["type", "Exception"], ["type", "Failure"], ["type", "X::AdHoc"],
+  ["type", "X::Anon::Augment"], ["type", "X::Anon::Multi"], ["type", "X::Assignment::RO"], ["type", "X::Attribute::NoPackage"],
+  ["type", "X::Attribute::Package"], ["type", "X::Attribute::Undeclared"], ["type", "X::Augment::NoSuchType"], ["type", "X::Bind"],
+  ["type", "X::Bind::NativeType"], ["type", "X::Bind::Slice"], ["type", "X::Caller::NotDynamic"], ["type", "X::Channel::ReceiveOnClosed"],
+  ["type", "X::Channel::SendOnClosed"], ["type", "X::Comp"], ["type", "X::Composition::NotComposable"], ["type", "X::Constructor::Positional"],
+  ["type", "X::ControlFlow"], ["type", "X::ControlFlow::Return"], ["type", "X::DateTime::TimezoneClash"], ["type", "X::Declaration::Scope"],
+  ["type", "X::Declaration::Scope::Multi"], ["type", "X::Does::TypeObject"], ["type", "X::Eval::NoSuchLang"], ["type", "X::Export::NameClash"],
+  ["type", "X::IO"], ["type", "X::IO::Chdir"], ["type", "X::IO::Chmod"], ["type", "X::IO::Copy"],
+  ["type", "X::IO::Cwd"], ["type", "X::IO::Dir"], ["type", "X::IO::DoesNotExist"], ["type", "X::IO::Link"],
+  ["type", "X::IO::Mkdir"], ["type", "X::IO::Move"], ["type", "X::IO::Rename"], ["type", "X::IO::Rmdir"],
+  ["type", "X::IO::Symlink"], ["type", "X::IO::Unlink"], ["type", "X::Inheritance::NotComposed"], ["type", "X::Inheritance::Unsupported"],
+  ["type", "X::Method::InvalidQualifier"], ["type", "X::Method::NotFound"], ["type", "X::Method::Private::Permission"], ["type", "X::Method::Private::Unqualified"],
+  ["type", "X::Mixin::NotComposable"], ["type", "X::NYI"], ["type", "X::NoDispatcher"], ["type", "X::Numeric::Real"],
+  ["type", "X::OS"], ["type", "X::Obsolete"], ["type", "X::OutOfRange"], ["type", "X::Package::Stubbed"],
+  ["type", "X::Parameter::Default"], ["type", "X::Parameter::MultipleTypeConstraints"], ["type", "X::Parameter::Placeholder"], ["type", "X::Parameter::Twigil"],
+  ["type", "X::Parameter::WrongOrder"], ["type", "X::Phaser::Multiple"], ["type", "X::Phaser::PrePost"], ["type", "X::Placeholder::Block"],
+  ["type", "X::Placeholder::Mainline"], ["type", "X::Pod"], ["type", "X::Proc::Async"], ["type", "X::Proc::Async::AlreadyStarted"],
+  ["type", "X::Proc::Async::CharsOrBytes"], ["type", "X::Proc::Async::MustBeStarted"], ["type", "X::Proc::Async::OpenForWriting"], ["type", "X::Proc::Async::TapBeforeSpawn"],
+  ["type", "X::Proc::Unsuccessful"], ["type", "X::Promise::CauseOnlyValidOnBroken"], ["type", "X::Promise::Vowed"], ["type", "X::Redeclaration"],
+  ["type", "X::Role::Initialization"], ["type", "X::Seq::Consumed"], ["type", "X::Sequence::Deduction"], ["type", "X::Signature::NameClash"],
+  ["type", "X::Signature::Placeholder"], ["type", "X::Str::Numeric"], ["type", "X::StubCode"], ["type", "X::Syntax"],
+  ["type", "X::Syntax::Augment::WithoutMonkeyTyping"], ["type", "X::Syntax::Comment::Embedded"], ["type", "X::Syntax::Confused"], ["type", "X::Syntax::InfixInTermPosition"],
+  ["type", "X::Syntax::Malformed"], ["type", "X::Syntax::Missing"], ["type", "X::Syntax::NegatedPair"], ["type", "X::Syntax::NoSelf"],
+  ["type", "X::Syntax::Number::RadixOutOfRange"], ["type", "X::Syntax::P5"], ["type", "X::Syntax::Regex::Adverb"], ["type", "X::Syntax::Regex::SolitaryQuantifier"],
+  ["type", "X::Syntax::Reserved"], ["type", "X::Syntax::Self::WithoutObject"], ["type", "X::Syntax::Signature::InvocantMarker"], ["type", "X::Syntax::Term::MissingInitializer"],
+  ["type", "X::Syntax::UnlessElse"], ["type", "X::Syntax::Variable::Match"], ["type", "X::Syntax::Variable::Numeric"], ["type", "X::Syntax::Variable::Twigil"],
+  ["type", "X::Temporal"], ["type", "X::Temporal::InvalidFormat"], ["type", "X::TypeCheck"], ["type", "X::TypeCheck::Assignment"],
+  ["type", "X::TypeCheck::Binding"], ["type", "X::TypeCheck::Return"], ["type", "X::TypeCheck::Splice"], ["type", "X::Undeclared"],
+
+  ["type", "Int:D"], ["type", "Str:U"], ["type", "Bool:_"]
+]
+
+----------------------------------------------------
+check for types

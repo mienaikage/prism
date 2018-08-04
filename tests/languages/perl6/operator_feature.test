@@ -1,0 +1,87 @@
+! !!! != %
+%% & && (&)
+(+) (-) (.) (<)
+(<=) (>) (>=) (^)
+(cont) (elem) (|) *
+** + +& ++
+++⚛ +< +> +^
++| , - --
+--⚛ . .& .*
+.+ .. ... ..^
+.= .? .^ /
+// : ::= :=
+< << <= <==
+<=> =:= == ===
+==> => =~= >
+>> >= ? ??
+!! ??? ?^ ?|
+X Z ^ ^..
+^..^ ^^ ^ff ^ff^
+^fff ^fff^ after and
+before but cmp div
+does eq eqv ff
+ff^ fff fff^ gcd
+ge gt lcm le
+leg let lt max
+min minmax mod ne
+not notandthen or so
+temp unicmp x xor
+xx | || ~
+~& ~< ~> ~^
+~| ~~ » ∈
+∉ ∋ ∌ ∖
+∘ ∩ ∪ ≠
+≤ ≥ ⊂ ⊃
+⊄ ⊅ ⊆ ⊇
+⊈ ⊉ ⊍ ⊎
+⊖ ⚛ ⚛++ ⚛+=
+⚛-- ⚛-= ⚛= ⚛−=
+<<== ==>>
+
+----------------------------------------------------
+
+[
+  ["operator", "!"], ["operator", "!!!"], ["operator", "!="], ["operator", "%"],
+  ["operator", "%%"], ["operator", "&"], ["operator", "&&"], ["operator", "(&)"],
+  ["operator", "(+)"], ["operator", "(-)"], ["operator", "(.)"], ["operator", "(<)"],
+  ["operator", "(<=)"], ["operator", "(>)"], ["operator", "(>=)"], ["operator", "(^)"],
+  ["operator", "(cont)"], ["operator", "(elem)"], ["operator", "(|)"], ["operator", "*"],
+  ["operator", "**"], ["operator", "+"], ["operator", "+&"], ["operator", "++"],
+  ["operator", "++⚛"], ["operator", "+<"], ["operator", "+>"], ["operator", "+^"],
+  ["operator", "+|"], ["operator", ","], ["operator", "-"], ["operator", "--"],
+  ["operator", "--⚛"], ["operator", "."], ["operator", ".&"], ["operator", ".*"],
+  ["operator", ".+"], ["operator", ".."], ["operator", "..."], ["operator", "..^"],
+  ["operator", ".="], ["operator", ".?"], ["operator", ".^"], ["operator", "/"],
+  ["operator", "//"], ["operator", ":"], ["operator", "::="], ["operator", ":="],
+  ["operator", "<"], ["operator", "<<"], ["operator", "<="], ["operator", "<=="],
+  ["operator", "<=>"], ["operator", "=:="], ["operator", "=="], ["operator", "==="],
+  ["operator", "==>"], ["operator", "=>"], ["operator", "=~="], ["operator", ">"],
+  ["operator", ">>"], ["operator", ">="], ["operator", "?"], ["operator", "??"],
+  ["operator", "!!"], ["operator", "???"], ["operator", "?^"], ["operator", "?|"],
+  ["operator", "X"], ["operator", "Z"], ["operator", "^"], ["operator", "^.."],
+  ["operator", "^..^"], ["operator", "^^"], ["operator", "^ff"], ["operator", "^ff^"],
+  ["operator", "^fff"], ["operator", "^fff^"], ["operator", "after"], ["operator", "and"],
+  ["operator", "before"], ["operator", "but"], ["operator", "cmp"], ["operator", "div"],
+  ["operator", "does"], ["operator", "eq"], ["operator", "eqv"], ["operator", "ff"],
+  ["operator", "ff^"], ["operator", "fff"], ["operator", "fff^"], ["operator", "gcd"],
+  ["operator", "ge"], ["operator", "gt"], ["operator", "lcm"], ["operator", "le"],
+  ["operator", "leg"], ["operator", "let"], ["operator", "lt"], ["operator", "max"],
+  ["operator", "min"], ["operator", "minmax"], ["operator", "mod"], ["operator", "ne"],
+  ["operator", "not"], ["operator", "notandthen"], ["operator", "or"], ["operator", "so"],
+  ["operator", "temp"], ["operator", "unicmp"], ["operator", "x"], ["operator", "xor"],
+  ["operator", "xx"], ["operator", "|"], ["operator", "||"], ["operator", "~"],
+  ["operator", "~&"], ["operator", "~<"], ["operator", "~>"], ["operator", "~^"],
+  ["operator", "~|"], ["operator", "~~"], ["operator", "»"], ["operator", "∈"],
+  ["operator", "∉"], ["operator", "∋"], ["operator", "∌"], ["operator", "∖"],
+  ["operator", "∘"], ["operator", "∩"], ["operator", "∪"], ["operator", "≠"],
+  ["operator", "≤"], ["operator", "≥"], ["operator", "⊂"], ["operator", "⊃"],
+  ["operator", "⊄"], ["operator", "⊅"], ["operator", "⊆"], ["operator", "⊇"],
+  ["operator", "⊈"], ["operator", "⊉"], ["operator", "⊍"], ["operator", "⊎"],
+  ["operator", "⊖"], ["operator", "⚛"], ["operator", "⚛++"], ["operator", "⚛+="],
+  ["operator", "⚛--"], ["operator", "⚛-="], ["operator", "⚛="], ["operator", "⚛−="],
+	["operator", "<<=="], ["operator", "==>>"]
+]
+
+----------------------------------------------------
+
+Checks for operators.
